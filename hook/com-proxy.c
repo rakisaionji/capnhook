@@ -15,7 +15,7 @@ static HRESULT STDMETHODCALLTYPE com_proxy_query_interface(
 static ULONG STDMETHODCALLTYPE com_proxy_addref(IUnknown *unk);
 static ULONG STDMETHODCALLTYPE com_proxy_release(IUnknown *unk);
 
-#ifdef __amd64
+#ifdef _M_AMD64
 
     /***** 64-BIT TRAMPOLINE *****/
 
